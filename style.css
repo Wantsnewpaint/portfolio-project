@@ -11,6 +11,10 @@
     padding-top: 100px;
     padding-bottom: 150px;
   }
+  h2 {
+    padding-top: 10px;
+    font-size: 48px;
+  }
   .img-pic {
     border-radius: 5%;
   }
@@ -41,4 +45,45 @@
 
   body {
     background-color: black;
+    position: relative;
+    margin: 50px;
+  }
+  .square {
+    padding: 10px;
+  }
+  .about {
+    text-align: center;
+    background: steelblue;
+    color: white;
+    min-height: 330px;
+  }
+  .certificate {
+    text-align: center;
+    background: white;
+    color: steelblue;
+    min-height: 330px;
+  }
+  .project {
+    text-align: center;
+    background: white;
+    color: steelblue;
+    min-height: 330px;
+  }
+  .icons {
+    text-align: center;
+    background: steelblue;
+    color: white;
+    min-height: 330px;
+  }
+  .skill {
+    width: 60px;
+    height: 60px;
+  }
+  @media ( max-width: 780px ) {
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 24px;
+    }
   }
