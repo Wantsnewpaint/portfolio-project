@@ -16,23 +16,15 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <style>
-        @media (max-width: 768px) {
-    h1, h2 {
-        font-size: 24px;
-    }
-    h3 {
-        font-size: 18px;
-    }
-}
-  </style>
   <meta name="description"  content="Public portfolio for Bridget Young">
     <title>About Bridget</title>
   </head>
   <body>
+    <div class="container">
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="/index.html">Bridget</a>
+        <a class="navbar-brand" href="index.html">Bridget</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -47,44 +39,67 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/index.html" title="Homepage">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/about.html" title="About Bridget Young">About me</a>
+              <a class="nav-link" href="/about.html" title="About Bridget Young">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html#contact" title="contact info">Contact me</a>
+              <a class="nav-link" href="/about.html#contact" title="Contact info">Contact me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h1 class="text-center">About me</h1>
-    <h3 class="text-center">Front-end developer from St Louis, MO, USA</h3>
-    <div class="about-paragraphs text-center">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-    </div>
-    <div class="container">
+
+  <header>
+    <div class="header">
       <div class="row">
-        <div class="col-sm-4">
-          <img src="/images/dictionary.png" class="img-fluid p-2 shadow rounded" alt="Yoga webpage" />
-        </div>
-        <div class="col-sm-4">
-          <img src="/images/weather.png" class="img-fluid p-2 shadow rounded" alt="weather app" />
-        </div>
-        <div class="col-sm-4">
-          <img src="/images/weather2.png" class="img-fluid p-2 shadow rounded" alt="yogurt webpage" />
+        <div class="col-md-12 col-sm-12">
+          <h1 class="title shadow">Junior React Developer</h1>
+          <h2>Established in the United States of America</h2>
         </div>
       </div>
     </div>
-    <div id="contact" class="mt-5">
-      <h2 class="text-center">📮 Contact me</h2>
-      <a href="mailto:corvettepg@gmail.com" class="email-link"> corvettepg@gmail.com </a>
+  </header>
+
+  <div class="body">
+    <div class="row">
+      <div class="col-md-6 col-sm-12 square">
+        <div class="certificate">
+          <h2>Certification</h2>
+          <p><img src="/images/htmlcertif.png" class="img-fluid" width="390"></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12 square">
+        <div class="certificate">
+          <h2>Certification</h2>
+          <p><img src="/images/jscertif.png" class="img-fluid" width="390"></p>
+         </div>
+       </div>
+
+        <div class="col-md-6 col-sm-12 square">
+          <div class="certificate">
+            <h2>Certification</h2>
+            <p>
+              <p><img src="/images/reactcertif.png" class="img-fluid" width="390"></p>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 square">
+          <div class="icons">
+            <h2>Skills</h2>
+            <p>
+              <img src="https://www.shecodes.io/assets/logos/technologies/html-0604a6b4c136a971d7ea5d7f5941216ae895093c636027fc3ac53297fea9a502.png" class="img-fluid skill">
+              <img src="https://www.shecodes.io/assets/logos/technologies/css-c4554008372faa24096997403ee46f3347a87b8f1636cfb148109bac867c03bb.png" class="img-fluid skill">
+              <img src="https://www.shecodes.io/assets/logos/technologies/javascript-50b69a37e0c4d3c360fe5f5bd1d032db1635db3c8bd3f251a5e1fe7489577947.png" class="img-fluid skill">
+              <img src="https://www.shecodes.io/assets/logos/technologies/bootstrap-b63cede059eb73dc7036db08fc04826683fce2a3f7a557b40bc68cc3d69b1adb.png" class="img-fluid skill">
+              <img src="https://www.shecodes.io/assets/logos/technologies/react-600b92c82a6b987573201ac95a30d8fcd6789a803c473337aadb2c2865cb7919.png" class="img-fluid skill">
+            </p>
+           </div>
+         </div>
+
     </div>
-  </body>
 </html>
