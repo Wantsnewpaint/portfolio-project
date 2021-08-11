@@ -9,7 +9,7 @@
     min-height: 400px;
     position: relative;
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
   }
   h2 {
     padding-top: 10px;
@@ -40,7 +40,7 @@
     text-transform: capitalize;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
-    color: rgb(71, 70, 70);
+    color: rgb(0, 0, 0);
   }
 
   body {
