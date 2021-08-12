@@ -138,6 +138,11 @@
     background: #202020;
     color: #fff;
   }
+
+  .project-title {
+    text-align: center;
+    padding-top: 20px;
+  }
   .container-footer {
     margin-bottom: 20px;
   }
